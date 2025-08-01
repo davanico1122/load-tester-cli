@@ -1,0 +1,52 @@
+
+{
+  "name": "load-tester-cli",
+  "version": "1.0.0",
+  "description": "Professional Load Testing CLI Tool with beautiful interface",
+  "main": "load-tester.js",
+  "bin": {
+    "load-tester": "./load-tester.js"
+  },
+  "scripts": {
+    "start": "node load-tester.js --help",
+    "build": "pkg . --out-path=dist",
+    "build-all": "pkg . --targets=node18-win-x64,node18-macos-x64,node18-linux-x64 --out-path=dist",
+    "test": "node load-tester.js --url https://httpbin.org/delay/1 --vus 10 --duration 5 --requests 5",
+    "example": "node load-tester.js --url https://jsonplaceholder.typicode.com/posts --vus 50 --duration 10"
+  },
+  "pkg": {
+    "scripts": [
+      "load-tester.js"
+    ],
+    "assets": [],
+    "targets": [
+      "node18-win-x64",
+      "node18-macos-x64", 
+      "node18-linux-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "load-testing",
+    "performance",
+    "cli",
+    "stress-test",
+    "benchmark"
+  ],
+  "author": "Load Tester CLI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/load-tester-cli"
+  }
+}
+Made with
+1
+1
