@@ -4,7 +4,7 @@ Professional Load Testing CLI Tool with beautiful interface and comprehensive fe
 
 ![Load Tester CLI Interface](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=Load+Tester+CLI)
 
-## 🚀 Key Features
+##  Key Features
 
 - **Virtual Users (VUs)** - Simulate up to 10,000 concurrent users
 - **Flexible Duration** - Set test duration according to your needs
@@ -14,7 +14,7 @@ Professional Load Testing CLI Tool with beautiful interface and comprehensive fe
 - **Cross Platform** - Supports Windows, macOS, and Linux
 - **Standalone Binary** - No Node.js installation required
 
-## 📦 Installation
+##  Installation
 
 ### Method 1: Download Binary (Recommended)
 
@@ -61,7 +61,7 @@ npm install
 node load-tester.js --url https://example.com --vus 100 --duration 30
 ```
 
-## 🎯 Usage
+##  Usage
 
 ### Basic Syntax
 ```bash
@@ -111,7 +111,7 @@ load-tester --url http://localhost:3000/api/users --vus 50 --duration 15
 load-tester --url https://example.com --vus 10 --duration 5 --requests 10
 ```
 
-## 📊 Understanding Test Results
+##  Understanding Test Results
 
 ### Summary Section
 ```
@@ -145,7 +145,7 @@ Response Times (ms):
   - **P95**: 95% of requests completed in this time or less
   - **P99**: 99% of requests completed in this time or less
 
-## 🔧 Manual Build
+##  Manual Build
 
 ### Prerequisites
 - Node.js ≥ 14.0.0
@@ -177,7 +177,7 @@ npm run build-all
 - `node18-macos-arm64` - macOS Apple Silicon (M1/M2)
 - `node18-linux-arm64` - Linux ARM64
 
-## ⚠️ Limitations and Safety
+##  Limitations and Safety
 
 ### System Limitations
 - Maximum VUs: 10,000 (to prevent system overload)
@@ -191,7 +191,7 @@ npm run build-all
 - Ensure you have permission to perform load testing
 - Start with small VUs and increase gradually
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Error: "ECONNREFUSED"
 ```bash
@@ -227,7 +227,7 @@ ulimit -n 65536
 - Reduce number of VUs
 - Ensure target server can handle the load
 
-## 📈 Optimization Tips
+##  Optimization Tips
 
 ### 1. Determining Optimal VUs
 ```bash
@@ -249,7 +249,7 @@ load-tester --url https://example.com --vus 100 --duration 60
 - Monitor CPU, RAM, and Network on target server
 - Use tools like `htop`, `netstat`, or monitoring tools
 
-## 📋 Load Testing Best Practices
+##  Load Testing Best Practices
 
 ### Planning Your Tests
 Define Objectives:
@@ -286,7 +286,7 @@ load-tester --url https://api.example.com --vus 1000 --duration 300
 | 95th Percentile | <200ms | <1000ms | >2000ms |
 | RPS | Depends on requirements | - | - |
 
-## 🚀 Performance Benchmarks
+##  Performance Benchmarks
 
 Tested on various systems:
 
@@ -298,7 +298,7 @@ Tested on various systems:
 
 *Results may vary based on target server and network conditions.*
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -328,7 +328,7 @@ npm run example
 - Add tests for new features
 - Update documentation
 
-## 📝 Changelog
+##  Changelog
 
 ### v1.0.0 (Current)
 - Initial release
@@ -347,7 +347,7 @@ npm run example
 - Proxy support
 - Configuration files
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 ### Responsible Testing
 - Only test systems you own or have explicit permission to test
@@ -361,7 +361,7 @@ npm run example
 - Consider GDPR and data protection requirements
 - Document your testing authorization
 
-## 📄 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
@@ -402,7 +402,7 @@ If you encounter issues or have questions:
 - [Report Bug](https://github.com/davanico1122/load-tester-cli/issues)
 - [Request Feature](https://github.com/davanico1122/load-tester-cli/discussions)
 - [Discussions](https://github.com/davanico1122/load-tester-cli/discussions)
-- Email: support@loadtestercli.com
+- Email: davaniko40@gmail.com
 
 ##  FAQ
 
